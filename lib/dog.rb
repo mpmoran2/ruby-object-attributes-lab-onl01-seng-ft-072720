@@ -10,10 +10,10 @@ class Dog
   end
   
   def breed
-    @this_breed
+    @breed
   end
-  def breed=(doge_breed)
-    @this_breed = doge_breed
+  def breed=(new_breed)
+    @breed = new_breed
   end
 end
 
