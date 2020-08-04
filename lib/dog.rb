@@ -19,7 +19,7 @@ class Dog
   end
 end
 
-frodo = Dog.new
+frodo = Dog.new("Frodie")
 frodo.name = "Frodie"
 frodo.breed = "American Eskimo"
 
