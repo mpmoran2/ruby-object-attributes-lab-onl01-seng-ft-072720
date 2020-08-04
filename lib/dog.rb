@@ -15,10 +15,4 @@ class Dog
   
 end
 
-frodo = Dog.new("Frodie")
-frodo.name = "Frodie"
-frodo.breed = "American Eskimo"
-
-puts frodo.name
-puts frodo.breed
 
