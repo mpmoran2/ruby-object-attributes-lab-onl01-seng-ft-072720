@@ -8,13 +8,13 @@ class Dog
   def name=(new_doge)
     @name = new_doge
   end
-  def breed=(doge_breed)
-    @this_breed = doge_breed
-  end
+  
   def breed
     @this_breed
   end
-  
+  def breed=(doge_breed)
+    @this_breed = doge_breed
+  end
 end
 
 frodo = Dog.new
