@@ -1,16 +1,20 @@
 class Dog 
-  
+ def initialize(doge_name) 
+   @name = doge_name
+ end
   def name
-    @this_doge
+    @name
   end
-  def name=(doge_name)
-    @this_doge = doge_name
-  enddef breed=(doge_breed)
+  def name=(new_doge)
+    @name = new_doge
+  end
+  def breed=(doge_breed)
     @this_breed = doge_breed
   end
   def breed
     @this_breed
   end
+  
 end
 
 frodo = Dog.new
